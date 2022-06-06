@@ -136,7 +136,7 @@ function Dashboard() {
                       href={item.href}
                       className={classNames(
                         item.current
-                          ? "bg-cyan-800 text-[#686868]"
+                          ? "bg-white text-[#686868]"
                           : "text-[#686868] hover:text-white hover:bg-cyan-600",
                         "group flex items-center px-2 py-2 text-base font-medium rounded-md"
                       )}
